@@ -1,0 +1,1266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+
+  <style> 
+input[type=text] {
+  width: 100%;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  background: linear-gradient(270deg, #C4C4C4 90.12%, rgba(196, 196, 196, 0) 100%);
+  color:black;
+  font-weight:600;
+}
+</style>
+      
+	
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--bootstrap-->
+		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		 <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" >
+		 <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" >
+		 <!--font-->
+		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+		 <link rel="stylesheet" href="./stylesheet/main_styles.css">
+		 <link rel="stylesheet" href="./stylesheet/index_styles.css">
+		 <link rel="stylesheet" href="./stylesheet/index_2_style.css">
+		 <link rel="stylesheet" href="./stylesheet/index_3_style.css">
+		 <link rel="stylesheet" href="./stylesheet/fonts.css">
+		 <link rel="stylesheet" href="./stylesheet/Medium_slider.css">
+
+
+		<!---media and client&partner also include boottrap header file in this -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="./scripts/slick.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="./stylesheet/carousel.css">
+		
+		<!------------------------------->
+	
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--------------->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+    
+	 
+
+
+      <title>DronaMaps</title>
+    <link rel="icon" type="image/gif/png" href="./source/image/Title_icon.png">
+	</head>
+
+  <body onmousemove="moveMask(event)">
+
+        <!--
+
+        -->
+       
+		<div class="Intro_cont container-fluid main_nav_container ">
+			
+			<div class=" Nav_container container " id="Nav_identifier" onmouseover="moveBoolF()" onmouseout="moveBoolT()" >
+                <nav class="navbar navbar-expand-md fixed-top   ">
+				
+                    <a href="#" class="navbar-brand ">
+                      <img class="logo newlogo" src="./source/image/Company_logo.png" alt="logo"  width="50" height ="50"><p class="newlogotext ">DronaMaps</p>
+                    </a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <!--remove css from img-->
+                    <div class="collapse navbar-collapse" id="navbarMenu">
+                        <ul class="navbar-nav ml-auto" >
+
+                          <li class="nav-item navbar2 " >
+                             <div class="dropdown ">
+                                <a href='javascript: void(0);' class=" navbarmenucolor" >Solutions</a>
+                                <div class="dropdown-content ">
+									<a href="./pipline/recommedation.html" style="font-size: 18px; line-height: -1px;">for Settlements</a>
+										<ul >
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Smart City/ Smart&nbsp;Village</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Pipeline Construction</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Property Taxes</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Change Tracking</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Flood Management</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Waste Management</a></li>
+											<li style="list-style-type: none;"><a href="./pipline/settlement_analytics.html">Mining</a></li>
+											<hr/>
+										</ul>
+										
+										<a href="./pipline/recommedation.html" style="font-size: 18px; display:inline-block;">for Precision Agriculture</a>
+
+                                </div>
+                            </div>
+                          </li>
+                            <li class="nav-item navbar2">
+                                <a href="#" class=" navbarmenucolor" >Blog</a>
+                            </li>
+                          <li class="nav-item navbar2">
+                              <a href="#" class=" navbarmenucolor" >Contact Us</a>
+                           </li>
+                           
+                          <li class="nav-item navbar2" >
+                              <a href="./contactUs/contactUs.html" class=" btn btn-outline-info  btn-sm navbarmenucolor btn-block" >Login</a>
+                           </li>
+                           
+                          <li class="nav-item navbar2  ">
+                              <a href="#" class=" btn btn-outline-info sagarcolorbackground navbarmenucolor  btn-block" style="color:black; font-weight:bold;">Get a Quote</a>
+                           </li>
+                        </ul>
+                      </div>
+                  </nav>
+            </div>
+			
+            <!-- add background image in class INtro_cont-->
+			<!--<div class="row" >
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc d-none d-sm-block container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						<div class="H_theme_line"></div>
+						<h2 class="padding display-5 headfont">Enhance your Drone maps with AI.</h2>
+						<p>End-to-end platform to collect process, visualize drone data</p>
+						<p>Deep learning powered insights to make your maps meaningful</p>  
+						<button type="button" class="knowmore">
+							<span class="go" style="position:absolute; display: block"></span>
+							<span  class="knowmore_text white bold rem12">Know more</span>
+							<span class="text_opa_low bold rem12">Know more</span>
+						</button>
+					</div>        
+				</div>
+				
+				<div class="col-12" style="float: left;">
+					<div class="d-block d-sm-none hidden_desc container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						<div class="H_theme_line"></div>
+						<h2 class="padding display-5 headfont">Enhance your Drone maps with AI.</h2>
+						<p>End-to-end platform to collect process, visualize drone data</p>
+						<p>Deep learning powered insights to make your maps meaningful</p>  
+						<button type="button" class="knowmore">
+							<span class="go" style="position:absolute; display: block"></span>
+							<span  class="knowmore_text white bold rem12">Know more</span>
+							<span class="text_opa_low bold rem12">Know more</span>
+						</button>
+					</div>        
+				</div>
+			</div> -->
+			<div class="row" >
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc d-none d-sm-block  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						
+						<p class="def_drone">Enhance Drone Maps with AI</p>
+						<span class="def_gis">Collect . Visualise . Share . Analyse .</span>
+						<br><br><br>
+						<button type="button" class="knowmore">
+							<span class="go" style="position:absolute; display: block"></span>
+							<span  class="knowmore_text white bold rem12">Know more</span>
+							<span class="text_opa_low bold rem12">Know more</span>
+						</button>
+					</div> 
+					
+				</div>
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc1 d-none d-sm-block  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						<p class="endtoend">An end-to-end solution for your Drone Mapping needs</p>
+					</div> 
+				</div>
+				
+				
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc_  d-block d-sm-none  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						
+						<p class="def_drone">Enhance Drone Maps with AI</p>
+						<span class="def_gis">Collect . Visualise . Share . Analyse .</span>
+						<br><br><br>
+						<button type="button" class="knowmore">
+							<span class="go" style="position:absolute; display: block"></span>
+							<span  class="knowmore_text white bold rem12">Know more</span>
+							<span class="text_opa_low bold rem12">Know more</span>
+						</button>
+					</div> 
+					
+				</div>
+				<div class="col-12" style="float: left;">
+					<div class="Intro_desc1_ d-block d-sm-none  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
+						<p class="endtoend">An end-to-end solution for your Drone Mapping needs</p>
+					</div> 
+				</div>
+				
+			</div>
+			<!------------------------------------------------------------Side box bring right down ---------------------------------------------------------------------------------------------------->
+			<!--<div class="row">
+				<div class="controller d-none d-sm-block">
+					<div class="col-sm-12 ">
+						<div class=" box_main">
+							
+								<div class="center-div  container padding">
+									<p class="draw_line" >Enhance Drone maps with AI</p>
+									<span class="def">Collect . Visualise . Share . Analyse .</span>
+									<br><br>
+									
+									<button type="button" class="knowmore">
+										<span class="go" style="position:absolute; display: block"></span>
+										<span  class="knowmore_text white bold rem12">Know more</span>
+										<span class="text_opa_low bold rem12" >Know more</span>
+									</button>
+								
+								</div>	
+							
+						</div>
+					</div>
+				
+					<div class="col-sm-12">
+						<div class=" box_main1 ">
+							
+							<div class="center-div1 container padding">
+								<p class="endtoend">An end-to-end solution for your Drone Mapping needs</p>
+							</div>
+							 
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="controller_hide d-block d-sm-none">
+				<div class="box_main">
+					
+						<div class="center-div" >
+							<p class="draw_line" >Enhance Drone maps with AI</p>
+							
+							<span class="def">Collect . Visualise . Share . Analyse .</span>
+							<br><br>
+							
+							<button type="button" class="knowmore">
+								<span class="go" style="position:absolute; display: block"></span>
+								<span  class="knowmore_text white bold rem12" >Know more</span>
+								<span class="text_opa_low bold rem12">Know more</span>
+							</button>
+							
+						</div>	
+					
+				</div>
+				<div class="box_main1_">
+					<div class="center-div1_">
+						<p class="endtoend">An end-to-end solution for your Drone Mapping needs</p>
+					</div>
+					 
+				</div>
+			</div> -->
+			<!------------------------------------------------------------Side box bring in middle, endtoend-solution ---------------------------------------------------------------------------------------------------->
+			
+        </div>
+        
+        <div id="Mask" class=" container-fluid"></div>
+        <div id="Mask_border"></div>
+
+      <!--
+
+      -->
+		<!--
+        <div class="Comp_cont container padding-top justify-content-center row ">
+            <div class="content">
+				<div class="container row">
+				   
+					<div class="col-12  d-flex justify-content-center">
+					   
+
+						<div class="comp_img">
+
+						</div>
+						
+					</div>
+					
+				</div>
+				  <br>
+				  
+				<div class="container row">
+				    <div class="col-lg-12"><br>
+						<p class="text-center" style="color: #e0e0e0; float: top;">
+							<span class="headfont">Raw data at scale to insights</span><br><br><br>
+							Maps make places on the edges of imagination graspable and placable. As drones become a popular tool for inexpensive data collection,
+							there is a greater need for solutions like ours that can digest this data and create useful information from them.  We empower decision makers
+							with robust insights using a combination of legacy geospatial approaches made more effective with deep learning. Our comprehensive solutions
+							make mapping scalable, accurate, and accessible.
+						</p>
+				    </div>
+				</div>
+            </div>
+        </div>
+      
+
+      -->
+	  <!--------------------------------------------------------------2nd page----------------------------------------------------------------------->
+		
+
+		<div class="Comp_cont container padding-top justify-content-center row ">
+				  <div class="content">
+					<div class="row">
+						<!--<div class="col-sm-12 col-md-4"></div>-->
+						<div class="col-12  d-flex justify-content-center">
+							<!--<img src="source/image/DronaLum1.png" alt="Drona_logo">-->
+
+							<div class="comp_img">
+
+							</div>
+							<!--<div class="glow">
+
+							</div>-->
+						</div>
+						<!--<div class="col-sm-12 col-md-4"></div>-->
+					</div>
+					  <br><br><br>
+					  <!--<img src="./source/Svg/Contours2.svg" class="contour">-->
+					<div class="row d-none d-sm-block">
+					  <div class="col-lg-12"><br>
+						<p class="text-center" style="color: #1DCEDE; float: top;">
+							<img src="https://ik.imagekit.io/1tz106e4j/dmaps_iRjap1wwix.svg" >
+							<!--<span class="insight2 ">Images to Insights</span>  --> <br>
+							<div class="insight">
+								Maps make places on the edges of imagination graspable and placable. 
+							</div>
+							<div class="insight">
+								Drone Maps empower decision
+								makers with robust insights using a combination of legacy geospatial approaches made more effective with deep learning.
+							</div>
+						</p>
+					  </div>
+					</div>
+					
+					<div class="img_insi row d-block d-sm-none">
+					  <div class="col-lg-12"><br>
+						<p class="text-center" style="color: #1DCEDE; float: top;">
+							<img src="https://ik.imagekit.io/1tz106e4j/dmaps_iRjap1wwix.svg" >
+							<!--<span class="insight2 ">Images to Insights</span>  --> <br>
+							<div class="insight">
+							Maps make places on the edges of imagination graspable and placable. Drone Maps empower decision
+							makers with robust insights using a combination of legacy geospatial approaches made more effective with deep learning.
+							</div>
+						</p>
+					  </div>
+					</div>
+					
+				  </div>
+		</div>
+	  
+	  <!--------------------------------------------------------------2nd page----------------------------------------------------------------------->
+
+      <!--<div class="Product_cont container-fluid padding justify-content-center" >
+          <div style="background: rgba(255,255,255,0.5)">
+           <div class="container " >
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding ">
+                    <h2 class="display-4 text-center headfont"><b>AI Analytics For Drone Maps</b></h2>
+                </div>
+
+                <div class="Product_desc col-xs-12 col-sm-12 col-md-6 col-lg-6 text-justify padding-lg-top">
+
+                  <p class="padding-top">We are an enterprise platform to help drone users extract analytics from
+                      imagery captured through drones. We provide recommendation engines for planning flights and
+                      applying ground control points after the images are captured, we optimise processing using deep
+                      learning algorithms for data sorting and map creation. In the end, we have automated toolkits
+                      for extraction of map properties for settlements (plot boundaries, roads, land use patterns etc)
+                      and precision agriculture (plant count and health).
+                  </p>
+                </div>
+
+                <div class="Product_video col-xs-12 col-sm-12 col-md-6 col-lg-6 padding-lg-top d-flex justify-content-center ">
+                    <img src="./source/image/video_thumbnail.jpg" alt="video_thumbnail" class="walkthrough">
+
+                                <iframe width="400" height="220" 
+                            src="https://www.youtube.com/embed/nElEUni7nHM">
+                            </iframe>  
+                        use youtube plugin to embed the video
+                </div>     
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+      -->
+
+      <!-------------------------------------------------------------------------------------new page added from here ------------------------------------------------------------------------------->
+	<br><br>
+	<div class="container">
+		<div class="plt_box">
+			<div class="row">
+				<div class="col-lg-12 col-xs-12 col-centered">
+					<p class="ptl">Plan. Track. Impact.</p>
+					<p class="plt_def">with DroneMaps</p>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-lg-4 col-xs-4 col-centered">
+					<div class="well">
+						
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/Group_1_BdzZKuyABl.svg" > Highly Dense Maps</p>
+						<p class="plt_heading_def">
+							Create Maps in 2D and 3D.
+							Extract dense contours and
+							digital elevation models
+						</p><br>
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/Group_2_vsibCISnA3.svg" > Annotate</p>
+						<p class="plt_heading_def">
+							Make notes, highlight,
+							and annotations about 
+							observations on the field. 
+						</p><br>
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/noun_barchart_ZwscgCK9Yj.svg" > Progress Tracking</p>
+						<p class="plt_heading_def">
+							Flexible and highly granular
+							change tracking applications 
+							on drone based maps. 
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-xs-2 col-centered"></div> 
+				<div class="col-lg-5 col-xs-5 col-centered">
+					<div class="well">
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/noun_measure_1_MuaJJo0Wet.svg" > Measure</p>
+						<p class="plt_heading_def">
+							Supports Live measurements
+							in 2D and 3D, all in your 
+							web browser. 
+						</p><br>
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/noun_measure_2_nNcCvlKKy.svg" > AI Powered Analytics</p>
+						<p class="plt_heading_def">
+							Geotag assets like roads, 
+							plot boundaries, street 
+							lights, and footpaths. 
+						</p><br>
+						<p class="plt_heading"><img src="https://ik.imagekit.io/1tz106e4j/noun_Sharing__Hto81_8pA.svg" > Share with your team</p>
+						<p class="plt_heading_def">
+							Share the analytics,
+							annotations, insights,
+							and map outputs with your team. 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br>
+	 <!-------------------------------------------------------------------------------------new page ended from here ------------------------------------------------------------------------------->
+	 
+	<div class="Pipeline_cont">
+        <div id="myCarousel" class="carousel slide" data-ride="false" style="background: black">
+            <div class="video_background"  >
+                <video   preload="auto" autoplay  loop  muted id="myvideo" >
+                    <source src="./source/video/gradent_pink.mp4"  type="video/mp4">
+                </video>
+            </div>
+			<div class="row">
+				<div class="desc_ col-sm-6">
+					<span class="process">process</span>
+					<span class="dottedline">
+						
+					</span>
+					<span class="ellips1">
+						<img src="./source/image/Ellipse_24.svg"> 
+						<span class="ellips1_txt">
+							Use recommendation Engines to plan flights and Ground Control Points
+						</span>
+					</span>
+					<span class="ellips2">
+						<img src="./source/image/Ellipse_23.svg"> 
+						<span class="ellips2_txt"> 
+							Robust Pipeline to process and efficiently merge large areas together
+						</span>
+					</span>
+					<span class="ellips3">
+						<img src="./source/image/Ellipse_22.svg"> 
+						<span class="ellips3_txt"> 
+							Deep learning analytics suite for urban / rural (identification of plots, roads etc) and precision agriculture (plant count and plant health)
+						</span>
+					</span>
+					
+				</div>
+			
+				<div class="desc col-sm-6">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="640" height="480" src="https://sketchfab.com/models/93760d8297264eb184e5c3df52142d00/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
+						</iframe> 
+						
+					</div>
+					<p class="cti">Click to Interact</p>
+				</div>					
+			</div>
+		</div>
+    </div>
+	
+	 
+	 <!------------------------------------------------------------------------- modified section start------------------------------------------------------------------------------------------------------------------------->
+        
+	<!--
+     <div class="Pipeline_cont">
+        <div id="myCarousel" class="carousel slide" data-ride="false" style="background: black">
+            <div class="Pipeline_nav justify-content-center">
+            <ol class="carousel-indicators">
+                <li id="flight" data-target="#myCarousel" data-slide-to="0" class="active thumb">
+                    <div class="thumbnail">
+                        <h6>Preflight</h6>
+                        <div id="selection1" class="H_theme_line_2_active" >
+
+                        </div>
+                    </div>
+                </li>
+                <li id="construction" data-target="#myCarousel" data-slide-to="1" class="thumb">
+                    <div class="thumbnail" style="right:10px;">
+                        <h6>Reconstruction</h6>
+                        <div id="selection2" class="H_theme_line_2_5">
+
+                        </div>
+                    </div>
+                </li>
+                <li id="analytic" data-target="#myCarousel" data-slide-to="2" class="thumb">
+                    <div class="thumbnail">
+                        <h6>Analytics</h6>
+                        <div id="selection3" class="H_theme_line_2_5">
+
+                        </div>
+                    </div>
+                </li>
+            </ol>
+            </div>
+            <div class="video_background"  >
+                <video   preload="auto" autoplay  loop  muted id="myvideo" >
+                    <source src="./source/video/gradent_pink.mp4"  type="video/mp4">
+                </video>
+            </div>
+
+            
+			<div class="row">
+				<div class="col-sm-6">
+				<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://sketchfab.com/models/3b8bdb7c457e4704a2a11a68ee64fc46/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
+				</iframe>  
+				</div>
+				</div>
+				<div class="desc col-sm-6 " >
+
+					<span style="display: inline-block ">
+					<p class="text-center"; style="display: inline-block; margin:7.5%;position:relative">
+					Use our recommendation engine to plan your flight and
+					ground control points for desired map accuracy and resolution.
+					We are an enterprise platform to help drone users extract analytics from
+					imagery captured through drones. We provide recommendation engines for planning flights and
+					applying ground control points
+					</p>
+					</span>
+					<div class="">
+						<button type="button" class="knowmore pos">
+							<span class="go" style="position:absolute; display: block"></span>
+							<span  class="knowmore_text white bold rem12" >Know more</span>
+							<span class="text_opa_low bold rem12">Know more</span>
+						</button>
+					</div>
+				</div>
+			</div> -->
+<!-------------------------------------------------------------------------------------------- Modified section end ------------------------------------------------------------------------------------------------->
+<!--
+
+<div class="carousel-inner">
+
+                <div class="carousel-item active">
+                   
+                    <div class="row info container-fluid " id="preflight">
+                        <div class="col-12 justify-content-center row" style="display: flex">
+                            <div class="info_sub col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                               
+                                <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/3b8bdb7c457e4704a2a11a68ee64fc46/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+                                    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                                        <a href="https://sketchfab.com/3d-models/full-without-foliage-3b8bdb7c457e4704a2a11a68ee64fc46?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Full Without Foliage</a>
+                                        by <a href="https://sketchfab.com/dronamaps?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">DronaMaps</a>
+                                        on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="desc col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                               
+                                <span style="display: inline-block">
+                                    <p class="quote">
+                                        Use our recommendation engine to plan your flight and
+                                        ground control points for desired map accuracy and resolution.
+                                        We are an enterprise platform to help drone users extract analytics from
+                                        imagery captured through drones. We provide recommendation engines for planning flights and
+                                        applying ground control points
+                                    </p>
+                                </span>
+                               
+                                <button type="button" class="knowmore">
+                                    <span class="go" style="position:absolute; display: block"></span>
+                                    <span style="" class="bold rem12 knowmore_text">Know more</span>
+                                    <span class="text_opa bold rem12">Know more</span>
+
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<div class="carousel-item">
+                   
+                    <div class="info container-fluid" id="reconstruction">
+                        <div class="col-12 justify-content-center row" style="display: flex">
+                        <div class="info_sub col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                           
+                            <div class="sketchfab-embed-wrapper">
+<iframe width="640" height="480" src="https://sketchfab.com/models/9c994d911d844bf3b23dc3e2d8ecd6ca/embed?autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0"
+frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true">
+</iframe>
+
+                                <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                                    <a href="https://sketchfab.com/3d-models/3-point-cloud-9c994d911d844bf3b23dc3e2d8ecd6ca?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">3 Point Cloud</a>
+                                    by <a href="https://sketchfab.com/dronamaps?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">DronaMaps</a>
+                                    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="desc col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                           
+                            <span style="display: inline-block">
+                                <p class="quote">
+                                    We streamline the process of image reconstruction by applying deep learning
+                                    for sorting of images at the beginning of the funnel. The data is broken and reassembled
+                                    intelligently into manageable chunks. We optimise processing using deep
+                                    learning algorithms for data sorting and map creation.
+                                </p>
+                            </span>
+                            <button type="button" class="knowmore">
+                                <span class="go" style="position:absolute; display: block"></span>
+                                <span style="" class="bold rem12 knowmore_text">Know more</span>
+                                <span class="text_opa bold rem12">Know more</span>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                   
+                    <div class="info container-fluid" id="analytics">
+                        <div class="col-12 justify-content-center row" style="display: flex">
+                            <div class="info_sub col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                               
+                                <div class="sketchfab-embed-wrapper"><iframe width="640" height="480" src="https://sketchfab.com/models/93760d8297264eb184e5c3df52142d00/embed?autospin=0.2&amp;autostart=1&amp;preload=1&amp;transparent=1&amp;ui_controls=0&amp;ui_infos=0" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+                                    <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+                                        <a href="https://sketchfab.com/3d-models/full-4-f-93760d8297264eb184e5c3df52142d00?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Full 4 F</a>
+                                        by <a href="https://sketchfab.com/dronamaps?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">DronaMaps</a>
+                                        on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="desc col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                               
+                                <span style="display: inline-block">
+                                    <p class="quote">
+                                        We have massive experience in large-scale mapping and we learned that
+                                        the time and cost center was manual extraction of geospatial analytics.
+                                        Therefore, we automated analytics for settlements like plot boundaries, roads,
+                                        trees, land use and agriculture like plant health & plant count.
+                                        We have automated toolkits for extraction of map properties for settlements
+                                        (plot boundaries, roads, land use patterns etc) and precision agriculture (plant count and health).
+                                    </p>
+                                </span>
+                               
+                                <div class="knowmoresetag">
+                                    <button type="button" class="knowmore">
+                                        <span class="go" style="position:absolute; display: block"></span>
+                                        <span style="" class="bold rem12 knowmore_text">Settlements</span>
+                                        <span class="text_opa bold rem12">Settlements</span>
+                                    </button><br class="sepration10">
+                                    <button type="button" class="knowmore">
+                                        <span class="go" style="position:absolute; display: block"></span>
+                                        <span style="" class="bold rem12 knowmore_text">Agriculture</span>
+                                        <span class="text_opa bold rem12">Agriculture</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+               
+            </div>
+
+			-->
+     <!--   </div>
+    </div>  -->
+
+
+      <!------------------------------------------------------------------------- modified section end ----------------------------------------------------------------------------------------------------------------------------------->
+        <!--
+      <div class="Blog_cont container-fluid justify-content-center" >
+        <div class="row jumbotron">
+            <div class="container">
+                <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h2 class="display-3 text-center color_azure headfont">INSPIRING DRONE PROJECTS</h2>
+          </div>
+
+            <div class="H_theme_line"></div>
+            
+           
+            <div class="Blog_area container" >
+              <div class="row">
+
+                <div class="Blog col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center padding">
+                    <div class=" card" style="width: 18rem">
+                        <img class="card-img-top" src="./source/image/Medium_ (1).png" alt="medium_Blog_image" height="150px">
+                        <div class="card-body">
+                          <h3 class="card-title headfont">Drones Based maps for Smart Cities:</h3>
+                           <p class="card-text"></p>
+                           <button class="Readmore">ReadMore</button>
+                        </div>
+                     </div>
+                </div>
+                
+                <div class="Blog col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center padding">
+                    <div class=" card" style="width: 18rem">
+                        <img class="card-img-top" src="./source/image/Medium_ (2)1.png" alt="medium_Blog_image" height="150px">
+                        <div class="card-body">
+                            <h3 class="card-title headfont">Dronafarms: </h3>
+                             <p class="card-text">Wave of Green Revolution powered by grassrots data</p>
+                             <button class="Readmore">ReadMore</button>
+                         </div>
+                     </div>  
+                </div>
+
+                <div class="Blog col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center padding">
+                    <div class=" card" style="width: 18rem">
+                        <img class="card-img-top"  src="./source/image/Medium_(3)1.png" alt="medium_Blog_image" height="150px">
+                        <div class="card-body">
+                            <h3 class="card-title headfont">The Future of Urban Planning:</h3>
+                             <p class="card-text">DroneBased 3D maps and piplines in lucknow</p>
+                             <button class="Readmore">ReadMore</button>
+                         </div>
+                     </div>
+                </div>
+     
+              </div>
+              add blogs
+              </div>
+    
+        </div>
+            </div>
+        </div>
+      </div>
+        -->
+      <!--
+
+      -->
+	<!------------------------------------------------------------------------------------ Image updated from imagekit.io ---------------------------------------------------------------------------------------------------------------------------->
+        <div class="container-fluid Blog_section">
+            <div class="container padding-lg-top">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding ">
+                    <p class="dmia"><b>Drone</b>Maps in Action</p>
+                </div>
+            </div>
+            <div id="Medium_blog" class="Medium_blog carousel slide" data-ride="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"  >
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___1__IhIYxS79aL.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/drones-based-maps-for-smart-cities-8cb99adbd130" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Smart Cities</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___2_1_XeXpj4rrdp.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/dronafarms-second-wave-of-green-revolution-powered-by-grassroots-data-865158d28e7a" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Drona Farms</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium__3_1_UOOdpVEFsW.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/the-future-of-urban-planning-drone-based-3d-maps-and-pipelines-in-lucknow-26d73f6e4cd6" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Urban Planning</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/smart_village_ZXhcUIjDIQ.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/mapping-the-digital-groundwork-for-the-smart-villages-of-india-465e0a54bc69" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Smart Villages</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Ayodhya_Hr52pD_dfu.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/ayodhya-3million-people-3-days-7c299c371d8c" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Ayodhya</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" >
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/polavaram_dWE7_6RaCW.gif" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/using-drones-to-reimagine-rehabilitation-and-resettlement-polavaram-dam-33acad99affc" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Rehabilitation and Resettlement</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___1__IhIYxS79aL.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/drones-based-maps-for-smart-cities-8cb99adbd130" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Smart Cities</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___2_1_XeXpj4rrdp.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/dronafarms-second-wave-of-green-revolution-powered-by-grassroots-data-865158d28e7a" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Drona Farms</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium__3__aP44cA1TB1.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/the-future-of-urban-planning-drone-based-3d-maps-and-pipelines-in-lucknow-26d73f6e4cd6" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Urban Planning</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/smart_village_ZXhcUIjDIQ.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/mapping-the-digital-groundwork-for-the-smart-villages-of-india-465e0a54bc69" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Smart Villages</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" >
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Ayodhya_Hr52pD_dfu.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/ayodhya-3million-people-3-days-7c299c371d8c" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Ayodhya</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/polavaram_dWE7_6RaCW.gif" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/using-drones-to-reimagine-rehabilitation-and-resettlement-polavaram-dam-33acad99affc" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Rehabilitation and Resettlement</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___1__IhIYxS79aL.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/drones-based-maps-for-smart-cities-8cb99adbd130" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Smart Cities</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium___2_1_XeXpj4rrdp.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/dronafarms-second-wave-of-green-revolution-powered-by-grassroots-data-865158d28e7a" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Drona Farms</h5>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card">
+                                <img src="https://ik.imagekit.io/1tz106e4j/source/image/Medium__3__aP44cA1TB1.jpg" class="card-img-top" alt="...">
+                                <a href="https://medium.com/dronamaps/the-future-of-urban-planning-drone-based-3d-maps-and-pipelines-in-lucknow-26d73f6e4cd6" target="_blank">
+                                    <div class="card-img-overlay">
+                                        <h5 class="card-title" style="color:white;">Urban Planning</h5>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#Medium_blog" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#Medium_blog" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+        </div>
+		
+		<!------------------------------------------------------------------------------------ Image updated from imagekit.io ---------------------------------------------------------------------------------------------------------------------------->
+		
+		
+			<!--slider for media and client&partners-->
+		<div class="row footer_row">
+			
+			<div class="container">
+				<p class="media_mention_title">Media Mentions</p><br>
+				<section class="customer-logos slider">
+					<div class="slide"><a href="https://timesofindia.indiatimes.com/city/bengaluru/drones-to-survey-properties-in-five-wards/articleshow/69881477.cms"><img src="./source/media_partners/toi.svg" target="_blank"></a></div>
+                    <div class="slide"><a href="https://www.business-standard.com/article/opinion/uavs-can-map-better-town-planning-118082201047_1.html" target="_blank"><img src="./source/media_partners/BS.svg"></a></div>
+					<div class="slide"><a href="https://www.cnbctv18.com/videos/startup/young-turks-to-watch-out-for-in-2019-1811081.htm" target="_blank"><img src="./source/media_partners/CNBC-TV18.svg"></a></div>
+					<div class="slide"><a href="https://www.thehindu.com/sci-tech/3d-maps-at-your-fingertips/article24035684.ece" target="_blank"><img src="./source/media_partners/hindu.svg"></a></div>
+                    <div class="slide"><a href="https://inc42.com/buzz/nasscom-innotrek-2018-meet-the-40-startups-heading-to-silicon-valley/" target="_blank"><img src="./source/media_partners/inc42.svg"></a></div>
+                   
+				</section>
+			</div>
+		</div>
+		<br>
+		<div class="row footer_row">
+		
+			<div class="container">
+				<p class="media_mention_title">Partners & Clients</p> <br>
+				<section class="customer-logos slider">
+					<div class="slide"><a href="https://timesofindia.indiatimes.com/city/bengaluru/drones-to-survey-properties-in-five-wards/articleshow/69881477.cms"><img src="./source/media_partners/jhu.svg" target="_blank"></a></div>
+                    <div class="slide"><a href="https://www.business-standard.com/article/opinion/uavs-can-map-better-town-planning-118082201047_1.html" target="_blank"><img src="./source/media_partners/smartvillage.png"></a></div>
+					<div class="slide"><a href="https://www.cnbctv18.com/videos/startup/young-turks-to-watch-out-for-in-2019-1811081.htm" target="_blank"><img src="./source/media_partners/esri.png"></a></div>
+					<div class="slide"><a href="https://www.thehindu.com/sci-tech/3d-maps-at-your-fingertips/article24035684.ece" target="_blank"><img src="./source/media_partners/smart-cities.png"></a></div>
+                    <div class="slide"><a href="https://inc42.com/buzz/nasscom-innotrek-2018-meet-the-40-startups-heading-to-silicon-valley/" target="_blank"><img src="./source/media_partners/sap.svg"></a></div>
+                    <div class="slide"><a href="https://yourstory.com/2018/05/early-stage-startup-jiogennexts-summer-cohort" target="_blank"><img src="./source/media_partners/kotak.svg"></a></div>
+                    <div class="slide"><a href="https://egov.eletsonline.com/2019/05/dronamaps-deploying-drones-as-geospatial-data-gathering-tool-for-rural-and-urban-development/"><img src="./source/media_partners/reliance.svg" target="_blank"></a></div>
+                    
+				</section>
+			</div>
+		</div>
+
+
+		<!--slider for media and client&partners-->
+		<!-- ----------------------------------------------------------------------------black and white image link added from imagekit.io start------------------------------------------------------------------------------------------------------------------ -->
+        <!-- <div class="Media_mention container d-none d-sm-block"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="container padding-lg-top"> -->
+                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 "> -->
+                        <!-- <h2 class="display-4 text-center headfont" style="font-family:Oswald;font-weight:78px">Media Mentions</h2> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="flex-container"> -->
+                    <!-- <div><a href="https://www.business-standard.com/article/opinion/uavs-can-map-better-town-planning-118082201047_1.html" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/Business-Standard_qstfXwjRF.svg"></a></div> -->
+					<!-- <div class="cnbc"><a href="https://www.cnbctv18.com/videos/startup/young-turks-to-watch-out-for-in-2019-1811081.htm" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/CNBCLogo_kltB3bSWn.svg"></a></div> -->
+					<!-- <div class="inc42"><a href="https://inc42.com/buzz/nasscom-innotrek-2018-meet-the-40-startups-heading-to-silicon-valley/" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Inc42Logo__DzR6YE5ay.svg"></a></div> -->
+                    <!-- <div class="hindu"><a href="https://www.thehindu.com/sci-tech/3d-maps-at-your-fingertips/article24035684.ece" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/HINDU_Logo-min_KlSN0P9dkO.png"></a></div> -->
+                    <!-- <div class="your_story"><a href="https://yourstory.com/2018/05/early-stage-startup-jiogennexts-summer-cohort" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/YourStoryLogo_yZ6EFfnGd.svg"></a></div> -->
+					
+                    <!-- <div class="Egov"><a href="https://egov.eletsonline.com/2019/05/dronamaps-deploying-drones-as-geospatial-data-gathering-tool-for-rural-and-urban-development/"><img src="https://ik.imagekit.io/1tz106e4j/Egove_logo_iPv0AiTIcr.jpg" target="_blank"></a></div> -->
+                    <!-- <div class="toi"><a href="https://timesofindia.indiatimes.com/city/bengaluru/drones-to-survey-properties-in-five-wards/articleshow/69881477.cms"><img src="https://ik.imagekit.io/1tz106e4j/TOI_qHEQD0gIHM.png" target="_blank"></a></div> -->
+                <!-- </div> -->
+            <!-- </div> -->
+			
+            <!-- <div class="row"> -->
+                <!-- <div class="container padding-lg-top partners&clients"> -->
+                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> -->
+                        <!-- <h2 class="display-4 text-center headfont heading" style="font-family:Oswald;font-weight:78px">Partners & Clients</h2><br><br> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="flex-container"> -->
+                    <!-- <div class="Jhu"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Hopkinslogovertical_5yqOLyJM7Q.svg"></a></div> -->
+                    <!-- <div class="Reliance"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Reliance_Industries_Logowhite_WS9NtA_gGZ.svg"></a></div> -->
+                    <!-- <div class="esri"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/esrilogoblack_a3SFWJuc5-.svg"></a></div> -->
+                    <!-- <div class="Sap"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SAPLogo_7p0bRdWri8.svg"></a></div> -->
+                    <!-- <div class="Jio"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/HUBlogo__aTd4M4t4H.svg"></a></div> -->
+                <!-- </div> -->
+            <!-- </div> -->
+			
+            <!-- <div class="row padding-left-right padding-left"> -->
+                <!-- <div class="flex-container"> -->
+
+                    
+                    <!-- <div class="AP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/GovtofAPLogoBlack_Ykk3NJqe21.svg"></a></div> -->
+                    <!-- <div class="UP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20UP.png"></a></div> -->
+                    <!-- <div class="MP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/madhya-pradesh-logo_3xOttShYRS.png"></a></div> -->
+                    <!-- <div class="Kotak"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Kotaklogo_DK9b7ChiC.svg"></a></div> -->
+
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+		<!-- ----------------------------------------------------------------------------Modified section end------------------------------------------------------------------------------------------------------------------ -->
+		
+		
+		<!-- ----------------------------------------------------------------------------------mobile responsive -------------------------------------------------------------------------------------------------------------- -->
+		
+		
+		<!-- <div class="Media_mention container d-block d-sm-none mob_res"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="container padding-lg-top"> -->
+                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 "> -->
+                        <!-- <h2 class="display-4 text-center headfont" style="font-family:Oswald;font-weight:78px">Media Mentions</h2> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+                <!-- <div class="row"> -->
+					<!-- <div class="col-sm-12 flex-container"> -->
+						<!-- <div><a href="https://www.business-standard.com/article/opinion/uavs-can-map-better-town-planning-118082201047_1.html" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/Business-Standard_qstfXwjRF.svg"></a></div> -->
+						<!-- <div class="Fd"><a href="https://factordaily.com/india-drone-marketmap/"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/factordaily-logo_t3qnqrk_5XU88VZwqz.svg" target="_blank"></a></div> -->
+						<!-- <div class="cnbc"><a href="https://www.cnbctv18.com/videos/startup/young-turks-to-watch-out-for-in-2019-1811081.htm" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/CNBCLogo_kltB3bSWn.svg"></a></div> -->
+					<!-- </div> -->
+					<!-- <div class="col-sm-12 flex-container"> -->
+						<!-- <div class="hindu"><a href="https://www.thehindu.com/sci-tech/3d-maps-at-your-fingertips/article24035684.ece" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/source/image/icon/HINDU_Logo-min_KlSN0P9dkO.png"></a></div> -->
+						<!-- <div class="your_story"><a href="https://yourstory.com/2018/05/early-stage-startup-jiogennexts-summer-cohort" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/YourStoryLogo_yZ6EFfnGd.svg"></a></div> -->
+						<!-- <div class="inc42"><a href="https://inc42.com/buzz/nasscom-innotrek-2018-meet-the-40-startups-heading-to-silicon-valley/" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Inc42Logo__DzR6YE5ay.svg"></a></div> -->
+					<!-- </div> -->
+				<!-- </div> -->
+            <!-- </div> -->
+			
+            <!-- <div class="row"> -->
+                <!-- <div class="container padding-lg-top partners&clients"> -->
+                    <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> -->
+                        <!-- <h2 class="display-4 text-center headfont heading" style="font-family:Oswald;font-weight:78px">Partners & Clients</h2><br><br> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+				<!-- <div class="row"> -->
+					<!-- <div class="col-sm-6 flex-container"> -->
+						<!-- <div class="Jhu"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Hopkinslogovertical_5yqOLyJM7Q.svg"></a></div> -->
+						<!-- <div class="Reliance"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Reliance_Industries_Logowhite_WS9NtA_gGZ.svg"></a></div> -->
+						<!-- <div class="esri"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/esrilogoblack_a3SFWJuc5-.svg"></a></div> -->
+					<!-- </div> -->
+					<!-- <div class="col-sm-6 flex-container"> -->
+						<!-- <div class="Sap"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SAPLogo_7p0bRdWri8.svg"></a></div> -->
+						<!-- <div class="Jio"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/HUBlogo__aTd4M4t4H.svg"></a></div> -->
+						<!-- <div class="UP"><a href="#" target="_blank"><img src="./source/image/partners/Govt%20UP.png"></a></div> -->
+					<!-- </div> -->
+						
+				<!-- </div> -->
+            <!-- </div> -->
+			
+            <!-- <div class="row "> -->
+				<!-- <div class="row"> -->
+					
+					<!-- <div class="col-sm-6 flex-container"> -->
+						
+						<!-- <div class="AP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/GovtofAPLogoBlack_Ykk3NJqe21.svg"></a></div> -->
+						<!-- <div class="MP"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/madhya-pradesh-logo_3xOttShYRS.png"></a></div> -->
+						<!-- <div class="Kotak"><a href="#" target="_blank"><img src="https://ik.imagekit.io/1tz106e4j/SVG_vector/Kotaklogo_DK9b7ChiC.svg"></a></div> -->
+					<!-- </div> -->
+					<!-- <div class="col-sm-6 flex-container"> -->
+						
+					<!-- </div> -->
+					
+				<!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+		
+		<!------------------------------------------------------------------------------------C ---------------------------------------------------------------------------------------------------------------->
+		
+		
+
+	 <div class="Touch_cont row ">
+        <div class=" jumbotron getin">
+          <!--dock to left side-->
+          
+               
+         
+          
+          
+        <!--Dock to right side-->
+        <div class="Touch_details col-sm-5 ml-auto" >
+		<p class="getinfont">We’d love to hear from you!</p>
+          <form action="email.php" method="POST" id="GetInTouch_form">
+            
+            
+				<div class="contbottom">
+					<div class="input-group mb-3">
+						<div class="input-group-prepend ">
+							<span id="inputGroup-sizing-default "style="margin:15px 50px -80px 0px">Name:</span>
+						</div>
+							<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span id="inputGroup-sizing-default" style="margin:15px 13px -80px  0px">Company:</span>
+						</div>
+							<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span id="inputGroup-sizing-default"style="margin:15px 48px -80px  0px">Phone:</span>
+						</div>
+							<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+					</div>
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<span id="inputGroup-sizing-default"style="margin:15px 8px 0px 0px">Message:&nbsp;&nbsp;</span>
+						</div>
+							<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+					</div>
+					
+					
+                  
+				  
+				</div>
+           
+            <div class="btn-git contbottom" style="float:right">
+                
+				<a href="./contactUs/contactUs.html" class=" btn btn-sm btn-text"s >Submit</a>
+               
+            
+			</div>
+
+          </form>
+        </div>
+      </div>
+   </div>
+       
+      <!--
+
+      -->
+		<!---------footer code------------>
+	<section class="footers">
+		<div class=" pt-5 " style="background: rgba(6, 6, 6, 0.82);">
+		   <div class="row">
+			   <div class="col-xs-12 col-sm-6 col-md-2 footers-one d-none d-sm-block">
+		   <div class="footers-logo footimg">
+			   <img src="https://ik.imagekit.io/1tz106e4j/source/Svg/logogwitha1_6Nux5gizz.svg" alt="Logo" style="width:100px; margin:0px 100px;">
+		   </div>
+		 
+		   
+		</div>
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-two d-none d-sm-block " style="margin:0px 100px;">
+		   <h5 class="foothead">RESOURCES </h5>
+		   <ul class="list-unstyled "  >
+		<li><a class="footli" href="maintenance.html">For Urban Areas</a></li>
+		<li><a class="footli" href="contact.html">For Mining</a></li>
+		<li><a class="footli" href="contact.html">For Agriculture</a></li>
+		<li><a class="footli" href="about.html">Help</a></li>
+		<!-- <li><a href="about.html">Post Requirements</a></li> -->
+		</ul>
+		</div>
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-three d-none d-sm-block" style="margin:0px -60px;">
+		   <h5 class="foothead">COMPANY </h5>
+		   <ul class="list-unstyled">
+		<li><a class="footli" href="maintenance.html">Contact US</a></li>
+		<li><a class="footli" href="contact.html">About Us</a></li>
+		<li><a class="footli" href="about.html">Careers</a></li>
+		<li><a class="footli" href="about.html">Press</a></li>
+		<li><a class="footli" href="about.html">Partners</a></li>
+		<!-- <li><a href="about.html">Services</a></li> -->
+		</ul>
+		</div>
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-four d-none d-sm-block" style="margin:0px 100px;">
+		   <h5 class="foothead">MORE </h5>
+		   <ul class="list-unstyled">
+		<li><a class="footli" href="maintenance.html">SmartCity/ Smart Villages</a></li>
+		<li><a class="footli" href="contact.html">Pipeline Planning</a></li>
+		<li><a class="footli" href="about.html">Change Tracking</a></li>
+		<li><a class="footli" href="about.html">Flood Management</a></li>
+		<li><a class="footli" href="about.html">Waste Management</a></li>
+		<li><a class="footli" href="about.html">Mining</a></li>
+		<li><a class="footli" href="about.html">Precision Agriculture</a></li>
+		<!-- <li><a href="about.html">User Agreement</a></li> -->
+		</ul>
+		</div>
+		  <div class="col-xs-12 col-sm-6 col-md-2 footers-five footli d-none d-sm-block" style="margin:0px -60px;">
+		   <h5 class="foothead">FIND US ON </h5>
+		   <ul class="list-unstyled ">
+		<div class="social-icons ">
+
+		<a href="https://www.facebook.com/" style="color:#DADADA"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>&nbsp;&nbsp;&nbsp;
+		<a href="https://twitter.com/" style="color:#DADADA"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>&nbsp;&nbsp;&nbsp;
+		<a href="" style="color:#DADADA"><i id="social-li" class="fa fa-linkedin-square fa-2x social"></i></a>
+		<br>
+		<br>
+		 <a href="tel:+14439701829" style="font-size:18px; font-family:Montserrat; color:#DADADA;">+1(443)970-1829</a>
+		
+		</div>
+			</ul>
+			</div>
+
+		<!--------------.for Mobile responsive---------------------->
+
+			<div class="col-xs-12 col-sm-6 col-md-2 footers-five footli d-block d-sm-none">
+				<h5 class="foothead">FIND US ON </h5>
+				<ul class="list-unstyled ">
+				<div class="social-icons ">
+					
+					<a href="https://www.facebook.com/" style="color:#DADADA"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>&nbsp;&nbsp;&nbsp;
+					<a href="https://twitter.com/" style="color:#DADADA"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>&nbsp;&nbsp;&nbsp;
+					<a href="" style="color:#DADADA"><i id="social-li" class="fa fa-linkedin-square fa-2x social"></i></a>
+					
+					<br>
+					<a href="tel:+14439701829" style="font-size:18px; font-family:Montserrat; color:#DADADA;">+1(443)970-1829</a>
+					
+				</div>
+				</ul>
+			</div>
+		   
+			   </div>
+		</div>
+		<div class=" footer-copyright text-center py-3" >© 2019 Copyright:
+    <a href="https://dronamaps.com" style="color:#1CCEDE; font-weight:900"> DronaMaps.com</a>
+  </div>
+		   
+		 
+	</section>
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    <!-- <script src="./scripts/scroll.js"></script> -->
+    <!-- <script src="./scripts/selection.js"></script> -->
+    <!-- <script src="./scripts/Moveable_Button.js"></script> -->
+    <!-- <script src="./scripts/Mask1.js"></script> -->
+	
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    -->
+	<script src="./scripts/scroll.js"></script>
+    <script src="./scripts/selection.js"></script>
+    <script src="./scripts/Moveable_Button.js"></script>
+    <script src="./scripts/Mask1.js"></script>
+	
+	
+	
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.customer-logos').slick({
+					slidesToShow: 6,
+					slidesToScroll: 1,
+					autoplay: true,
+					autoplaySpeed: 1000,
+					arrows: false,
+					dots: false,
+						pauseOnHover: false,
+						responsive: [{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 4
+						}
+					}, {
+						breakpoint: 520,
+						settings: {
+							slidesToShow: 3
+						}
+					}]
+				});
+			});
+		</script>
+	
+  </body>
+</html>

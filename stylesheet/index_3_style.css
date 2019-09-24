@@ -1,0 +1,164 @@
+/*****************************Ashutosh********************************************/
+/*********  23 oct *******/
+.dmia{
+	font-family: Exo 2, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 30px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #FEFEFE;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************Avinash*******************************************/
+.getin
+{
+  background: url("./../source/image/Group.png") no-repeat left;
+  background-size:100%;
+  background-size: cover;
+  width: 100%;
+  <!-- height: 100vh; -->
+  height: 439px;
+  
+	
+}
+
+
+
+
+
+.label {
+    float: left
+}
+.span {
+    display: block;
+    overflow: hidden;
+    /* padding: 0 4px 0 6px */
+}
+.input {
+    width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  margin: 2px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  background: linear-gradient(270deg, #C4C4C4 90.12%, rgba(196, 196, 196, 0) 100%);
+  color:white;
+  font-weight:600;
+}
+
+.getinfont
+{
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 47px;
+	color: #FFFFFF;
+	text-align:left;
+	margin:-7% 0% 0% 0%;
+	
+}
+
+.contbottom
+{
+	
+margin:0% 15% 0% 0%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+
+
+text-transform: capitalize;
+
+color: #333333;
+}
+
+.btn-git {
+	width: 139px;
+	height: 38px;
+	border: 1px solid #333333;
+	text-align: center;
+	box-sizing: border-box;
+}
+.btn-text{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+
+text-align: center;
+color: #333333;
+}
+
+
+@media screen and  (max-width: 576px){
+.getinfont {
+    font-size: 40px;
+	
+}
+.contbottom
+{
+	font-size: 15px;
+}
+.btn-text{
+	font-size: 15px;
+	
+}
+.getin{
+	height:380px;
+	
+}
+
+
+.btn-git {
+	width: 120px;
+	height: 30px;
+}
+input[type=text] {
+background: none;
+background-color:rgba(0, 0, 0, 0);
+color:white;
+outline:none;
+border: none;
+border-bottom: .4px solid black;
+
+font-weight:100;
+
+
+}
+
+
+}/*max-width:576px*/

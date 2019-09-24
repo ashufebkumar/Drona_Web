@@ -1,0 +1,328 @@
+
+
+hr {
+	border-top: .2px solid white;
+	border-bottom: 1px solid #1CCEDE;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.textarea {
+
+  background-color:rgba(196, 196, 196, 0);
+  
+}
+
+
+.btn-git {
+	width: 139px;
+	height: 38px;
+	border: 1px solid #333333;
+	text-align: center;
+	box-sizing: border-box;
+}
+.btn-text{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+color: #333333;
+}
+
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+.h3
+{
+  font-weight: bold;
+}
+
+.h2
+{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.navbar
+{
+  background: rgba(6, 6, 6, 0.82) !important;
+  margin:0 !important;
+
+	padding: 16px !important;
+ /* background: #313034 !important;*/
+}
+
+body
+{
+    background: whitesmoke;
+}
+
+.V_theme_line {
+  float: left;
+  height: 125px;
+  width: 10px;
+  background-color: aqua;
+}
+
+.padding{
+  padding-top:  1rem;
+  padding-bottom: 1rem;
+}
+.padding-left-right{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.padding-top
+{
+  padding-top:  1rem;
+}
+.padding-bottom
+{
+  padding-bottom: 0.3rem;
+}
+.padding-lg-top
+{
+  padding-top:  2rem;
+}
+
+.padding-0{
+    padding-left: 0;
+    padding-right: 0;
+}
+.padding-right{
+  padding-right: 0;
+}
+
+.padding-top-0
+{
+  padding-top: 0;
+}
+
+.padding-left{
+    padding-left: 6rem;
+}
+
+
+.H_theme_line
+{
+  width: 20%;
+  height: 1%;
+background-color: azure;
+}
+
+.jumbotron
+{
+  margin-bottom: 0;
+}
+
+.color_azure
+{
+  color: azure;
+}
+
+
+/*icons*/
+.fa-facebook-f, .fa-twitter, .fa-linkedin-in
+{
+  color: black;
+  font-size: 2em; 
+}
+
+/*cards*/
+
+
+.card
+{
+  transform: scale(0.9);
+transition: transform 1s;
+}
+
+.card:hover
+{
+transform: scale(1.1);
+}
+/*
+.Blog_area:hover .card:not(:hover)
+{
+  transform: scale(0.9);
+ -webkit-filter: blur(1px);
+}
+*/
+.Blog_area:hover .Blog:not(:hover) > .card:not(:hover)
+{
+  transform: scale(0.9);
+ -webkit-filter: blur(1px);
+}
+
+.card-title
+{
+  height: 100px;
+}
+.card-text
+{
+  height: 100px;
+}
+
+.content-center{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+/* DropDown */
+.dropdown{
+  position: relative;
+display: inline-block;
+transition: all 0.7s ease;
+}
+
+.dropdown-content{
+  overflow: hidden;
+  height: 0;
+  width: 282px;
+  background:rgba(6, 6, 6, 0.82); !important;
+  transform:translateX(-40px);
+  z-index: 1;
+  border-radius: 0;
+  transition: height 0.5s;
+  text-align: left;
+  position: absolute;
+  top: 54px;
+  left: -45px;
+
+}
+.dropdown-content a {
+  color: #1CCEDE;
+  font-family: Montserrat;
+  padding: 12px 10px; 
+  text-decoration: none;
+  text-align: left;
+  display: inline-block;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1px;
+
+
+}
+
+
+/* .dropdown-content a:hover{ */
+  /* color: #1CCEDE; */
+  /* width: 210px; */
+  /* pointer-events: none; */
+  /* text-align: left; */
+  
+/* } */
+
+.dropdown:hover .dropdown-content{
+  height: 1000%;
+  display: grid;
+  text-align: left;
+
+  
+}
+
+
+button
+{
+  border: 0;
+  border-radius: 0;
+  background: black;
+  
+  
+  
+  transition: transform .2s;
+}
+
+button:hover
+{
+  transform: scale(1.3);
+  transform: translateZ(2rem);
+  border-radius: 0px!important;
+  
+}
+
+.Intro_desc button
+{
+background: none;
+}
+
+.button_go{
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+ /* background-color: rgb(37, 124, 182);
+  box-shadow: 2px 2px 20px rgb(78, 165, 223);
+  */
+  background-color: #327166;
+  box-shadow: 2px 2px 10px #449285;
+  transition: width 0.6s ease;
+}
+
+.button_go:hover
+{
+  width: 120px;
+}
+
+/********footer style**********/
+.footimg
+{
+position: absolute;
+width: 100px;
+height: 100px;
+
+}
+
+
+#sec {
+      background-color: #DADADA;
+      position: absolute;
+      top: 0;
+      left: 0;
+     
+    }
+
+
+.foothead
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 3px;
+text-transform: uppercase;
+
+color: #1CCEDE;
+}
+
+
+ul li .footli
+{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 212.2%;
+/* or 25px */
+/* text-transform: capitalize; */
+color:#DADADA;
+letter-spacing: 0px;
+}
+/************************/
