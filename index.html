@@ -3,45 +3,48 @@
   <head>
   
 
-  <style> 
-input[type=text] {
-  width: 100%;
-  margin: 2px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid black;
-  background: linear-gradient(270deg, #C4C4C4 90.12%, rgba(196, 196, 196, 0) 100%);
-  color:black;
-  font-weight:600;
-}
-</style>
+  	<style> 
+		input[type=text] {
+		width: 100%;
+		margin: 2px 0;
+		box-sizing: border-box;
+		border: none;
+		border-bottom: 1px solid black;
+		background: linear-gradient(270deg, #C4C4C4 90.12%, rgba(196, 196, 196, 0) 100%);
+		color:black;
+		font-weight:600;
+		}
+	</style>
       
 	
     <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!--bootstrap-->
-		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-		 <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" >
-		 <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" >
-		 <!--font-->
-		<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
-		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
-
-		 <link rel="stylesheet" href="./stylesheet/main_styles.css">
-		 <link rel="stylesheet" href="./stylesheet/index_styles.css">
-		 <link rel="stylesheet" href="./stylesheet/index_2_style.css">
-		 <link rel="stylesheet" href="./stylesheet/index_3_style.css">
-		 <link rel="stylesheet" href="./stylesheet/fonts.css">
-		 <link rel="stylesheet" href="./stylesheet/Medium_slider.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" >
+	<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" >
 
 
-		<!---media and client&partner also include boottrap header file in this -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="./scripts/slick.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="./stylesheet/carousel.css">
-		
-		<!------------------------------->
+	<!--font-->
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./stylesheet/main_styles.css">
+	<link rel="stylesheet" href="./stylesheet/index_styles.css">
+	<link rel="stylesheet" href="./stylesheet/index_2_style.css">
+	<link rel="stylesheet" href="./stylesheet/index_3_style.css">
+	<link rel="stylesheet" href="./stylesheet/fonts.css">
+	<link rel="stylesheet" href="./stylesheet/Medium_slider.css">
+
+
+	<!---media and client&partner also include boottrap header file in this -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="./scripts/slick.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="./stylesheet/carousel.css">
+	
+	<!------------------------------->
 	
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--------------->
@@ -52,11 +55,11 @@ input[type=text] {
 	 
 
 
-      <title>DronaMaps</title>
+    <title>DronaMaps</title>
     <link rel="icon" type="image/gif/png" href="./source/image/Title_icon.png">
 	</head>
 
-  <body onmousemove="moveMask(event)">
+    <body onmousemove="moveMask(event)">
 
         <!--
 
@@ -149,6 +152,7 @@ input[type=text] {
 					</div>        
 				</div>
 			</div> -->
+			<!--
 			<div class="row" >
 				<div class="col-12" style="float: left;">
 					<div class="Intro_desc d-none d-sm-block  container padding" onmouseover="moveBoolF()" onmouseout="moveBoolT()">
@@ -192,6 +196,7 @@ input[type=text] {
 				</div>
 				
 			</div>
+			-->
 			<!------------------------------------------------------------Side box bring right down ---------------------------------------------------------------------------------------------------->
 			<!--<div class="row">
 				<div class="controller d-none d-sm-block">
@@ -254,13 +259,56 @@ input[type=text] {
 			<!------------------------------------------------------------Side box bring in middle, endtoend-solution ---------------------------------------------------------------------------------------------------->
 			
         </div>
-        
-        <div id="Mask" class=" container-fluid"></div>
+        <!--
+		<div id="Mask" class=" container-fluid"></div>
         <div id="Mask_border"></div>
+		-->
+        <div class="row">
+			<div class="landing_section">
+				<video autoplay loop muted class="landing_video_background">
+					<source src="./source/video/background_video.mp4" type="video/mp4">
+				</video>
+				
+				<div class="row">
+					<div class="col-sm-5"></div>
+					<div class="col-sm-7">
+						<div class="overlay_content">
+							<p class="title">Democratising Mapping with Drones, Maps, and AI</p><br>	
+							<div class="line"></div><br>
+							<p class="def">
+								An easy to use platform to process, view, share, and analyse drone maps across applications
+							</p>
+							
+						</div>
+						<div class="row">
+							<div class="col-sm-5">
+								<p class="settl_agri">Settlements</p>
+								<div class="line"></div>
+								<p class="settl_agri_def"><br>
+									Solutions tailored for urban/fringe areas.
+									10X Accuracy 25% Operating time
+								</p>
+								<a href="#" class="settl_agri_link">Explore ></a>
+							</div>
+							<div class="col-sm-6">
+									<p class="settl_agri">Precision Agriculture</p>
+									<div class="line"></div><br>
+									<p class="settl_agri_def">
+										Stress tracking of your farms on dense data 
+										10 days Warning on stress 35% Increase on yield
+									</p>
+									<a href="#" class="settl_agri_link">Explore ></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+		</div>
 
-      <!--
-
-      -->
+		
 		<!--
         <div class="Comp_cont container padding-top justify-content-center row ">
             <div class="content">

@@ -243,6 +243,7 @@ text-align: center;
 
 
 /* intrp*/
+
 .Intro_cont
 {
     /*
@@ -250,15 +251,16 @@ text-align: center;
     background-image: url("./../source/image/Intro_cont_Colored.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 50%;
-    */
+	background-position: 50%;
+	background: radial-gradient(circle at left bottom,rgba(0,0,0,0.65)0%,rgba(255,255,255,0)70%), url("./../source/image/background/noir.png");*/
+    /*
     background: linear-gradient(to left ,rgba(255,255,255,0)65%,rgba(0,0,0,0.5)100%), url("https://ik.imagekit.io/1tz106e4j/source/image/background/noir_V3_wik-DVBE6o.png");
-    /*background: radial-gradient(circle at left bottom,rgba(0,0,0,0.65)0%,rgba(255,255,255,0)70%), url("./../source/image/background/noir.png");*/
+    
     background-repeat: no-repeat;
     background-size: contain , cover;
     background-position: left-side;
     height: 100vh;
-    color: white;
+    color: white;*/
 }
 .hidden_desc{
   

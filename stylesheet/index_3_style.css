@@ -1,4 +1,172 @@
-/*****************************Ashutosh********************************************/
+/*****************************Ashutosh  start***************************************************/
+/**********************************24/09/2019************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  margin:0;
+  padding:0;
+}
+.landing_video_background{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height:auto;
+  z-index: -100;
+}
+.landing_section{
+  background: linear-gradient(180deg, rgba(28, 206, 222, 0.348958) 0%, rgba(0, 0, 0, 0.673205) 100%);
+  height:100vh;
+	overflow: hidden;
+}
+@media(min-aspect-ratio: 16/9){
+  .landing_video_background{
+    width: 100%;
+    height:auto;
+  }
+}
+@media (max-aspect-ratio: 16/9){
+  .landing_video_background{
+    width: auto;
+    height: 100%;
+  } 
+}
+.overlay_content{
+  margin-top:10%;
+  text-align: right;
+}
+.title{
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 5vw;
+  color: #FFFFFF;
+  margin-right: 5%;
+}
+.line{
+  border: 0.5px solid #FFFFFF;
+}
+.def{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 44px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-right: 5%;
+}
+.settl_agri{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #FBFBFB;
+}
+.settl_agri_def{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #D8D8D8;
+}
+.settl_agri_link{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: #FBFBFB;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px){
+  .def{
+    font-weight: 300;
+    font-size: 18px;
+   
+  }
+  .settl_agri{
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .settl_agri_def{
+    font-weight: 300;
+    font-size: 18px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px){
+  .def{
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .settl_agri{
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .settl_agri_def{
+    font-weight: 400;
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+  .def{
+    font-weight: 500;
+    font-size: 22px;
+  }
+  .settl_agri{
+    font-weight: 600;
+    font-size: 26px;
+  }
+  .settl_agri_def{
+    font-weight: 500;
+    font-size: 22px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .def{
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .settl_agri{
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .settl_agri_def{
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .def{
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .settl_agri{
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .settl_agri_def{
+    font-weight: 600;
+    font-size: 24px;
+  }
+}
+
+/*********************************24/09/2019************************************************************/
+
+/***************************Ashutosh  end*******************************************************/
 /*********  23 oct *******/
 .dmia{
 	font-family: Exo 2, sans-serif;
@@ -114,51 +282,49 @@ color: #333333;
 }
 .btn-text{
 	font-family: Montserrat;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 22px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 22px;
 
-text-align: center;
-color: #333333;
-}
+	text-align: center;
+	color: #333333;
+	}
 
 
 @media screen and  (max-width: 576px){
-.getinfont {
-    font-size: 40px;
-	
-}
-.contbottom
-{
-	font-size: 15px;
-}
-.btn-text{
-	font-size: 15px;
-	
-}
-.getin{
-	height:380px;
-	
-}
+	.getinfont {
+		font-size: 40px;
+		
+	}
+	.contbottom
+	{
+		font-size: 15px;
+	}
+	.btn-text{
+		font-size: 15px;
+		
+	}
+	.getin{
+		height:380px;
+		
+	}
 
 
-.btn-git {
-	width: 120px;
-	height: 30px;
-}
-input[type=text] {
-background: none;
-background-color:rgba(0, 0, 0, 0);
-color:white;
-outline:none;
-border: none;
-border-bottom: .4px solid black;
+	.btn-git {
+		width: 120px;
+		height: 30px;
+	}
+	input[type=text] {
+	background: none;
+	background-color:rgba(0, 0, 0, 0);
+	color:white;
+	outline:none;
+	border: none;
+	border-bottom: .4px solid black;
 
-font-weight:100;
-
-
-}
+	font-weight:100;
 
 
+	}
 }/*max-width:576px*/
